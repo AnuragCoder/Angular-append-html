@@ -1,0 +1,9 @@
+<form>
+    <ng-container *ngFor="let item of array">
+        <input type="text" name="firstname" value="Mickey">
+         <input type="text" name="lastname" value="Mouse">
+    </ng-container>
+    <input type="submit" value="Submit">
+</form>
+
+<button (click)="add()">Submit</button>
